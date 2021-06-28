@@ -4,6 +4,7 @@ console.log(page);
 
 switch (page) {
     case "index.html":
+    default:
         document.getElementById('nav-home-btn').classList.add('active');
         break;
     case "artworks.html":
