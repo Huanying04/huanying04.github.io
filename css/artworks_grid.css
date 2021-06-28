@@ -1,0 +1,24 @@
+.artwork-grid-container {
+    display: grid;
+    grid-gap: 20px;
+    width: 1240px;
+    height: 500px;
+    grid-template-columns:  repeat(3, 400px);
+    grid-template-rows: repeat(1, 500px);
+    justify-items: center;
+    align-items: center;
+}
+
+.cell-2 {
+    margin: auto;
+    text-align: center;
+    grid-column: 2;
+}
+
+.cell-title {
+    margin: auto;
+    text-align: center;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 700;
+    font-size: 27pt;
+}

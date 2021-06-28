@@ -1,0 +1,15 @@
+.about-grid-container {
+    display: grid;
+    width: 90%;
+    height: 600px;
+    grid-template-columns: 40vw 50vw;
+    align-items: center;
+}
+
+.cell-1 {
+    text-align: center;
+}
+
+.cell-2 {
+    text-align: left;
+}
