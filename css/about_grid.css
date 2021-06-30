@@ -1,7 +1,7 @@
 .about-grid-container {
     display: grid;
     width: 90%;
-    height: 600px;
+    height: 60vw;
     grid-template-columns: 40vw 50vw;
     align-items: center;
 }

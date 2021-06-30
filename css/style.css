@@ -18,7 +18,7 @@
     vertical-align: center;
     color: #f2f2f2;
     text-align: center;
-    padding: 5px 50px;
+    padding: 0.7vh 8vw;
     text-decoration: none;
     font-family: 'Noto Sans TC', sans-serif;
     font-weight: 300;
@@ -40,7 +40,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 18%;
+    width: 25vh;
 }
 
 .banner-image {
