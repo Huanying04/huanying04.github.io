@@ -1,0 +1,73 @@
+body {
+    overflow-x: hidden;
+}
+
+.main {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+    overflow: hidden;
+    background: linear-gradient(-45deg,#d759e2, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+.avatar {
+    width: 15vmax;
+    height: 15vmax;
+}
+
+.round-img {
+    object-fit:cover;
+    border-radius:50%;
+}
+
+.under-name {
+    padding: 5px;
+    font-size: 2vmax;
+    font-family: "sans-serif";
+    font-weight: bold;
+}
+
+.shadow {
+    filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.7))
+}
+
+.in {
+    animation: img-in 1s, 5s;
+}
+
+.a-title {
+    text-align: center;
+    font-size: 3vmax;
+    padding: 7vmax 0 4vmax 0;
+    font-family: "sans-serif";
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+@-webkit-keyframes img-in {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+}
+
+@keyframes img-in {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}

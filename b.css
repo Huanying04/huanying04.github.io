@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.ctn-grid-container {
+    display: grid;
+    grid-gap: 2vw;
+    grid-template-columns: repeat(3, 15vmax);
+    grid-template-rows: repeat(2, 15vmax);
+    justify-content: center;
+    align-items: center;
+}
+
+.ctn-grid-container-b {
+    display: grid;
+    grid-gap: 2vw;
+    grid-template-columns: repeat(3, 15vmax);
+    grid-template-rows: repeat(1, 15vmax);
+    justify-content: center;
+    align-items: center;
+}
+
+.ctn-grid-elemt {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    justify-items: center;
+    align-items: center;
+    border-radius:0.75vmax;
+    transition-duration:250ms;
+    text-decoration: none;
+    color: #000;
+}
+
+.ctn-grid-elemt-img {
+    display: grid;
+    height: 9vmax;
+    width: 9vmax;
+    justify-items: center;
+    align-items: center;
+}
+
+.ctn-grid-elemt:hover {
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.6);
+    border: 2px #00000055 solid;
+}
+
+.ctn-grid-elemt img {
+    max-height: 9vmax;
+    max-width: 9vmax;
+}
+
+.ctn-grid-elemt div {
+    font-size: 1.5vmax;
+    font-family: 'Roboto', sans-serif;
+}
