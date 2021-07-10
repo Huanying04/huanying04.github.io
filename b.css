@@ -3,8 +3,8 @@
 .ctn-grid-container {
     display: grid;
     grid-gap: 2vw;
-    grid-template-columns: repeat(3, 15vmax);
-    grid-template-rows: repeat(2, 15vmax);
+    grid-template-columns: repeat(3, 15vw);
+    grid-template-rows: repeat(2, 15vw);
     justify-content: center;
     align-items: center;
 }
@@ -12,8 +12,8 @@
 .ctn-grid-container-b {
     display: grid;
     grid-gap: 2vw;
-    grid-template-columns: repeat(3, 15vmax);
-    grid-template-rows: repeat(1, 15vmax);
+    grid-template-columns: repeat(3, 15vw);
+    grid-template-rows: repeat(1, 15vw);
     justify-content: center;
     align-items: center;
 }
@@ -24,7 +24,7 @@
     height: 100%;
     justify-items: center;
     align-items: center;
-    border-radius:0.75vmax;
+    border-radius:0.75vw;
     transition-duration:250ms;
     text-decoration: none;
     color: #000;
@@ -32,8 +32,8 @@
 
 .ctn-grid-elemt-img {
     display: grid;
-    height: 9vmax;
-    width: 9vmax;
+    height: 9vw;
+    width: 9vw;
     justify-items: center;
     align-items: center;
 }
@@ -44,11 +44,11 @@
 }
 
 .ctn-grid-elemt img {
-    max-height: 9vmax;
-    max-width: 9vmax;
+    max-height: 9vw;
+    max-width: 9vw;
 }
 
 .ctn-grid-elemt div {
-    font-size: 1.5vmax;
+    font-size: 1.5vw;
     font-family: 'Roboto', sans-serif;
 }
